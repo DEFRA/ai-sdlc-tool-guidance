@@ -36,4 +36,4 @@ exclude:
   - .jekyll-cache/
   - gemfiles/
   - .DS_Store
-  - playbook-refactoring-prompt.md
+  - prompts/
