@@ -10,7 +10,7 @@ The report must have the following sections:
 # [Tool Name]
 
 ## 1. Tool Overview
-[A short description of what the tool is, website, etc.]
+[A short description of what the tool is, website, intended use, etc.]
 
 ## 2. Privacy Settings
 [Any settings or setup in the tool to ensure privacy is maintained. Include links]
