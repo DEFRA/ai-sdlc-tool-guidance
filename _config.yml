@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
 title: Defra AI in the Tool Guidance
-description: Thovide guidance on best practices for ways of working, tooling, and context-specific use cases for the use of AI in the Software Development Lifecycle (SDLC) tailored to Defra's unique needs and challenges.is guidance is a living document that aims to pr
+description: Guidance on the use of artificial intelligence (AI) tools within the Department for Environment, Food & Rural Affairs (Defra), covering best practices, security considerations, and implementation guidelines.
 baseurl: '/defra-ai-tool-guidance'
 logo: /assets/images/defra-logo.svg
 version: 2.0.3
@@ -26,7 +26,6 @@ plugins:
 # Exclude files from processing
 exclude:
   - .obsidian/
-  - defra-ai-tool-guidance-team/
   - Gemfile
   - Gemfile.lock
   - node_modules/
