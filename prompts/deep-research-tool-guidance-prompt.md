@@ -1,4 +1,6 @@
-```
+```markdown
+NOTE - Don't forget to attach the detail report!
+
 I'm writing a comprehensive report on AI tool analysis for [name] - [url]
 
 The purpose of this report is to gather facts. It will be used by UK government policy makers, security analysts and architects to determine if the tool is suitable for UK government adoption, so it's very important we get the details correct and report facts accurately.
@@ -28,6 +30,9 @@ The report must have the following sections:
 
 ### 4.3 Data at Rest
 [If data is stored in the data centers, then how data is stored and in what state, include any restrictions on use for UK Government]
+
+### 4.4. Data Retention
+[Data retention practices and policies. Defined by plan/tier, if applicable]
 
 ## 5. Audit Logging
 [Any relevant audit logging features of the tool]
