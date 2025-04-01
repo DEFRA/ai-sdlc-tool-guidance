@@ -1,0 +1,40 @@
+theme: jekyll-theme-minimal
+title: Defra AI in the Tool Guidance
+description: Thovide guidance on best practices for ways of working, tooling, and context-specific use cases for the use of AI in the Software Development Lifecycle (SDLC) tailored to Defra's unique needs and challenges.is guidance is a living document that aims to pr
+baseurl: '/defra-ai-tool-guidance'
+logo: /assets/images/defra-logo.svg
+version: 2.0.3
+css_version: 2.0.3
+
+# Build settings
+source: .
+sass:
+  style: compressed
+  sass_dir: _sass
+  load_paths:
+    - _sass
+    - node_modules
+
+# Additional settings
+markdown: kramdown
+show_downloads: false
+google_analytics: # Add your Google Analytics tracking ID here if needed
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude files from processing
+exclude:
+  - .obsidian/
+  - defra-ai-tool-guidance-team/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - .gitignore
+  - CONTRIBUTING.md
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - .DS_Store
+  - playbook-refactoring-prompt.md
