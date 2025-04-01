@@ -15,6 +15,9 @@ This guidance provides factual, practical information about:
 
 ## Table of Contents
 
+### Productivity Tools
+- [ChatGPT - Summary Guidance](tool-guidance/chat-gpt-summary.md)
+- [ChatGPT - Detailed Guidance](tool-guidance/chat-gpt-detailed.md)
 ### Development IDEs
 - [Cursor - Summary Guidance](tool-guidance/cursor-summary.md)
 - [Cursor - Detailed Guidance](tool-guidance/cursor-detailed.md)
