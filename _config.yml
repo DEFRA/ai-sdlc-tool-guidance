@@ -25,6 +25,7 @@ plugins:
 
 # Exclude files from processing
 exclude:
+  - .cursor/
   - .obsidian/
   - Gemfile
   - Gemfile.lock

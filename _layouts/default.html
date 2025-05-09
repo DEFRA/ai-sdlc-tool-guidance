@@ -23,7 +23,7 @@
       <div class="navigation">
         {% if site.logo %}
         <div class="logo-container">
-          <a href="/defra-ai-tool-guidance">
+          <a href="/ai-sdlc-tool-guidance">
             <img class="logo-light" src="{{site.logo | relative_url}}" alt="Defra Logo" />
             <img class="logo-dark" src="{{ "/assets/images/defra-logo-white.svg" | relative_url }}" alt="Defra Logo" />
           </a>
@@ -64,11 +64,15 @@
         <nav class="site-nav">
           <h2>Navigation</h2>
           <ul>
-            <li><a href="/defra-ai-tool-guidance/">Home</a></li>
-            <li>Tools
-                <ul>
-                  <li><a href="/defra-ai-tool-guidance/tool-guidance/cursor-detailed">Cursor - Detailed Guidance</a></li>
-                </ul>
+            <li><a href="{{ "/" | relative_url }}">Home</a></li>
+            <li>
+              <a href="#">AI Tools</a>
+              <ul>
+                <li><a href="{{ "/tool-guidance/chat-gpt-summary" | relative_url }}">ChatGPT</a></li>
+                <li><a href="{{ "/tool-guidance/cursor-summary" | relative_url }}">Cursor</a></li>
+                <li><a href="{{ "/tool-guidance/github-copilot-summary" | relative_url }}">GitHub Copilot</a></li>
+                <li><a href="{{ "/tool-guidance/aws-bedrock-summary" | relative_url }}">AWS Bedrock</a></li>
+              </ul>
             </li>
           </ul>
         </nav>
