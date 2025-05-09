@@ -1,4 +1,4 @@
-# ChatGPT – Summary Report
+# ChatGPT – Summary
 
 This is a high-level summary of the [detailed report](chat-gpt-detailed.md)
 
@@ -67,10 +67,10 @@ ChatGPT adheres to recognised industry standards and regulatory requirements:
 
 ## 8. References
 
-- [ChatGPT Overview | OpenAI](https://openai.com/chatgpt/overview/#:~:text=Get%20answers,more%20productive)
-- [ChatGPT Pricing & Plans | OpenAI](https://openai.com/chatgpt/pricing/#:~:text=Team)
-- [Data Controls FAQ | OpenAI Help Centre](https://help.openai.com/en/articles/7730893-data-controls-faq)
-- [OpenAI launches data residency in Europe | TechCrunch](https://techcrunch.com/2025/02/06/openai-launches-data-residency-in-europe/)
-- [Enterprise privacy at OpenAI | OpenAI](https://openai.com/enterprise-privacy/#:~:text=Who%20owns%20inputs%20and%20outputs%3F)
-- [Compliance API for Enterprise Customers | OpenAI Help Centre](https://help.openai.com/en/articles/9261474-compliance-apis-for-enterprise-customers)
+- [ChatGPT Overview](https://openai.com/chatgpt/overview/)
+- [ChatGPT Pricing & Plans](https://openai.com/chatgpt/pricing/)
+- [Data Controls FAQ](https://help.openai.com/en/articles/7730893-data-controls-faq)
+- [OpenAI launches data residency in Europe](https://techcrunch.com/2025/02/06/openai-launches-data-residency-in-europe/)
+- [Enterprise privacy at OpenAI](https://openai.com/enterprise-privacy/)
+- [Compliance API for Enterprise Customers](https://help.openai.com/en/articles/9261474-compliance-apis-for-enterprise-customers)
 

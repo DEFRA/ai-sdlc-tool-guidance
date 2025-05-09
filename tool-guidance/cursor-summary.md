@@ -1,4 +1,4 @@
-# Cursor - Summary Guidance
+# Cursor - Summary
 
 This is a high-level summary of the [detailed report](cursor-detailed.md)
 
@@ -75,9 +75,8 @@ Cursor is SOC 2 Type II certified, underscoring its commitment to security and o
 
 ## 8. References
 
-- [Security | Cursor - The AI Code Editor](https://www.cursor.com/security#:~:text=While%20we%20have%20several%20large,make%20a%20proper%20risk%20assessment)
-- [Enterprise | Cursor - The AI Code Editor](https://www.cursor.com/enterprise#:~:text=How%20does%20Cursor%20secure%20my,code)
-- [Privacy Policy | Cursor - The AI Code Editor](https://www.cursor.com/privacy#:~:text=TLDR)
-- [Pricing | Cursor - The AI Code Editor](https://www.cursor.com/pricing#:~:text=Everything%20in%20Pro%2C%20plus)
-- [Enterprise | Cursor - The AI Code Editor](https://www.cursor.com/enterprise#:~:text=Do%20you%20support%20SSO%3F)
-- [Do the Cursor Policies comply with GDPR fully? - Cursor Community Forum](https://forum.cursor.com/t/do-the-cursor-policies-comply-with-gdpr-fully/20294#:~:text=%E2%80%A2%20Ensure%20explicit%2C%20informed%20consent,when%20Privacy%20Mode%20is%20off)
+- [Security](https://www.cursor.com/security)
+- [Enterprise](https://www.cursor.com/enterprise)
+- [Privacy Policy](https://www.cursor.com/privacy)
+- [Pricing](https://www.cursor.com/pricing)
+- [Do the Cursor Policies comply with GDPR fully?](https://forum.cursor.com/t/do-the-cursor-policies-comply-with-gdpr-fully/20294)
