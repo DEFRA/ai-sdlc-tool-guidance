@@ -1,7 +1,7 @@
 theme: jekyll-theme-minimal
 title: Defra AI in the Tool Guidance
 description: Guidance on the use of artificial intelligence (AI) tools within the Department for Environment, Food & Rural Affairs (Defra), covering best practices, security considerations, and implementation guidelines.
-baseurl: '/defra-ai-tool-guidance'
+baseurl: '/ai-sdlc-tool-guidance'
 logo: /assets/images/defra-logo.svg
 version: 2.0.3
 css_version: 2.0.3
@@ -31,7 +31,6 @@ exclude:
   - node_modules/
   - vendor/
   - .gitignore
-  - CONTRIBUTING.md
   - .sass-cache/
   - .jekyll-cache/
   - gemfiles/
