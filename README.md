@@ -32,9 +32,9 @@ You'll learn how to:
 
 ## AI playbooks and further guidance
 
-- [Defra AI in the SDLC playbook](https://defra.github.io/defra-ai-sdlc/) - a practical resource for adopting AI-enabled workflows, including tool use and prompt libraries
-- [Artificial Intelligence Playbook for the UK Government](https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government/artificial-intelligence-playbook-for-the-uk-government-html) - overarching principles for adopting AI across UK government services
 - [AI Insights: AI Coding Assistants for developers in HMG](https://www.gov.uk/government/publications/ai-insights/ai-insights-ai-coding-assistants-for-developers-in-hmg-html) - guidance for using AI coding assistants within HMG
+- [Artificial Intelligence Playbook for the UK Government](https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government/artificial-intelligence-playbook-for-the-uk-government-html) - overarching principles for adopting AI across UK government services
+- [Defra AI in the SDLC playbook](https://defra.github.io/defra-ai-sdlc/) - a practical resource for adopting AI-enabled workflows, including tool use and prompt libraries
 
 ## Contributing
 
