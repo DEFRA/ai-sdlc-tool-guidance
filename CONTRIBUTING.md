@@ -2,21 +2,21 @@
 
 Thank you for your interest in contributing to the Defra AI Tool Guidance! This is a living document and a shared resource for all at Defra, and we welcome your contributions to make it better.
 
-## How to Contribute
+## How to contribute
 
-### Reporting Issues
+### Report issues
 
-If you find an error, inconsistency, or area for improvement in the playbook:
+If you find an error, inconsistency, or area for improvement in the guidance:
 
-1. Navigate to the repository's Issues section
+1. Go to the repository's Issues section
 2. Click on "New Issue"
 3. Clearly describe the issue, including:
-   - Where you found the error (which section/page)
-   - What the current content states
-   - Why you believe it needs to be corrected
-   - Any suggested improvements (if applicable)
+   - where you found the error (which section/page)
+   - what the current content states
+   - why you believe it needs to be corrected
+   - any suggested improvements (if applicable)
 
-### Contributing New Content
+### Add new content
 
 If you'd like to contribute new content or make changes to existing content:
 
@@ -26,9 +26,9 @@ If you'd like to contribute new content or make changes to existing content:
    ```
 
 2. Make your changes in the new branch
-   - Ensure your content follows the existing structure and formatting
-   - Include clear and concise explanations
-   - Add relevant examples where appropriate
+   - ensure your content follows the existing structure and formatting
+   - include clear and concise explanations
+   - add relevant examples where appropriate
 
 3. Commit your changes with meaningful commit messages
    ```
@@ -41,20 +41,20 @@ If you'd like to contribute new content or make changes to existing content:
    ```
 
 5. Create a Pull Request (PR)
-   - Navigate to the repository's Pull Requests section
-   - Click "New Pull Request"
-   - Select your branch
-   - Provide a clear description of your changes
-   - Submit the PR for review
+   - go to the repository's Pull Requests section
+   - click "New Pull Request"
+   - select your branch
+   - provide a clear description of your changes
+   - submit the PR for review
 
-## Review Process
+## Review process
 
 - All contributions will be reviewed by the maintainers
 - Not all suggestions may be accepted, but all feedback is welcome and valued
 - Reviewers may request changes or clarification
 - Once approved, your changes will be merged into the main branch
 
-## Style Guidelines
+## Style guidelines
 
 - Use clear, concise language
 - Follow existing formatting and structure
@@ -62,9 +62,9 @@ If you'd like to contribute new content or make changes to existing content:
 - Link to relevant resources and documentation
 - Avoid jargon or explain technical terms when necessary
 
-## Questions or Need Help?
+## Questions or need help?
 
-If you have questions about contributing or need assistance, please:
+If you have questions about contributing or need help, please:
 1. Check existing issues to see if your question has been answered
 2. Create a new issue with the "question" label if you need further help
 

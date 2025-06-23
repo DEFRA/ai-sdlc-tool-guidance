@@ -11,6 +11,10 @@ if [ ! -d "vendor/bundle" ] && [ ! -f "Gemfile.lock" ]; then
     ./scripts/local-dev/setup.sh
 fi
 
+# Clean Jekyll cache and generated files
+echo "🧹 Cleaning Jekyll cache..."
+bundle exec jekyll clean
+
 # Start Jekyll server
 echo "📡 Starting server at http://localhost:4000/ai-sdlc-tool-guidance"
 echo "   Press Ctrl+C to stop the server"

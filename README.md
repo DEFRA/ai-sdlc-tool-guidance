@@ -1,38 +1,41 @@
 # Defra AI Tool Guidance
-Version 0.1
-
-**Document status: DRAFT**
+Version 1.0
 
 This repository contains guidance for the use of artificial intelligence (AI) tools within the Department for Environment, Food & Rural Affairs (Defra) and its associated organisations.
 
-## Purpose
+## What you'll get from this guidance
 
-This guidance provides factual, practical information about:
-- the use of AI tools within a UK government context
-- data management considerations
-- privacy guidelines and compliance requirements
-- best practice settings for AI implementation
+You'll learn how to:
+- choose the right AI tool for your work
+- handle data safely when using AI
+- follow privacy and compliance requirements
+- configure tools with best practice settings
 
-## Table of Contents
+## AI tools by purpose
 
-### Productivity Tools
-- [ChatGPT - Summary Guidance](/tool-guidance/chat-gpt-summary.md)
-- [ChatGPT - Detailed Guidance](/tool-guidance/chat-gpt-detailed.md)
+### For general productivity
+- **ChatGPT** - [Summary](tool-guidance/chat-gpt-summary.md) • [Detailed guide](tool-guidance/chat-gpt-detailed.md)
+- **Claude** - [Summary](tool-guidance/claude-summary.md) • [Detailed guide](tool-guidance/claude-detailed.md)
+- **Google Gemini** - [Summary](tool-guidance/google-gemini-summary.md) • [Detailed guide](tool-guidance/google-gemini-detailed.md)
 
-### Development Tools
-- [Amazon Q for Developers - Summary Guidance](/tool-guidance/amazon-q-developers-summary.md)
-- [Amazon Q for Developers - Detailed Guidance](/tool-guidance/amazon-q-developers-detailed.md)
-- [Cursor - Summary Guidance](/tool-guidance/cursor-summary.md)
-- [Cursor - Detailed Guidance](/tool-guidance/cursor-detailed.md)
-- [GitHub Copilot - Summary Guidance](/tool-guidance/github-copilot-summary.md)
-- [GitHub Copilot - Detailed Guidance](/tool-guidance/github-copilot-detailed.md)
-- [JetBrains AI Assistant for IntelliJ IDEA - Summary Guidance](/tool-guidance/jetbrains-ai-assistant-Intelli-summary.md)
-- [JetBrains AI Assistant for IntelliJ IDEA - Detailed Guidance](/tool-guidance/jetbrains-ai-assistant-Intelli-detailed.md)
+### For software development
+- **Aider** - [Summary](tool-guidance/aider-summary.md) • [Detailed guide](tool-guidance/aider-detailed.md)
+- **Amazon Q for Developers** - [Summary](tool-guidance/amazon-q-developers-summary.md) • [Detailed guide](tool-guidance/amazon-q-developers-detailed.md)
+- **Claude Code** - [Summary](tool-guidance/claude-code-summary.md) • [Detailed guide](tool-guidance/claude-code-detailed.md)
+- **Cursor** - [Summary](tool-guidance/cursor-summary.md) • [Detailed guide](tool-guidance/cursor-detailed.md)
+- **GitHub Copilot** - [Summary](tool-guidance/github-copilot-summary.md) • [Detailed guide](tool-guidance/github-copilot-detailed.md)
+- **JetBrains AI Assistant** - [Summary](tool-guidance/jetbrains-ai-assistant-intellij-summary.md) • [Detailed guide](tool-guidance/jetbrains-ai-assistant-intellij-detailed.md)
+- **Windsurf** - [Summary](tool-guidance/windsurf-summary.md) • [Detailed guide](tool-guidance/windsurf-detailed.md)
 
-### Enterprise AI Solutions
-- [AWS Bedrock - Summary Guidance](/tool-guidance/aws-bedrock-summary.md)
-- [AWS Bedrock - Detailed Guidance](/tool-guidance/aws-bedrock-detailed-todd.md) 
+### For enterprise AI solutions
+- **AWS Bedrock** - [Summary](tool-guidance/aws-bedrock-summary.md) • [Detailed guide](tool-guidance/aws-bedrock-detailed.md)
+
+## AI playbooks and further guidance
+
+- [Defra AI in the SDLC playbook](https://defra.github.io/defra-ai-sdlc/) - a practical resource for adopting AI-enabled workflows, including tool use and prompt libraries
+- [Artificial Intelligence Playbook for the UK Government](https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government/artificial-intelligence-playbook-for-the-uk-government-html) - overarching principles for adopting AI across UK government services
+- [AI Insights: AI Coding Assistants for developers in HMG](https://www.gov.uk/government/publications/ai-insights/ai-insights-ai-coding-assistants-for-developers-in-hmg-html) - guidance for using AI coding assistants within HMG
 
 ## Contributing
 
-For information about contributing to this guidance, please read our [contributing guidelines](CONTRIBUTING.md).
+Read our [contributing guidelines](CONTRIBUTING.md) to help improve this guidance.

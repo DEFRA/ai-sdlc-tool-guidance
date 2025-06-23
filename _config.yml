@@ -22,6 +22,7 @@ google_analytics: # Add your Google Analytics tracking ID here if needed
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-relative-links
 
 # Include files that are normally excluded
 include:
@@ -41,3 +42,4 @@ exclude:
   - gemfiles/
   - .DS_Store
   - prompts/
+  - scripts/

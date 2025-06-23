@@ -1,82 +1,90 @@
 # Amazon Bedrock – Summary
 
-This is a high-level summary of the [detailed report](aws-bedrock-detailed-todd.md)
+This summary covers the key points from the [detailed guide](aws-bedrock-detailed.md). Use it to understand how Amazon Bedrock can work in government environments.
 
-## 1. Tool Overview
+## What Amazon Bedrock does
 
-Amazon Bedrock is a fully managed generative AI service on AWS that provides access to foundation models (FMs) from leading AI companies. It allows organisations to build AI applications within AWS's cloud infrastructure, leveraging existing security and compliance capabilities.
+Amazon Bedrock is a cloud service that gives you access to AI models from companies like Anthropic and Meta. You run it on AWS infrastructure, using the security and compliance features you already have.
 
-The service is offered with several deployment options:
-- **Standard Cloud Deployment:** Models hosted in AWS public cloud regions
-- **AWS PrivateLink:** Private connectivity without internet exposure
-- **Dedicated Capacity:** Reserved compute resources for consistent performance
-- **On-Premises (via EKS Anywhere):** Deploy some models in your own data centres
+You can deploy Bedrock in different ways:
+- **Standard cloud:** Models run in AWS public cloud regions
+- **Private connection:** Connect without using the public internet (AWS PrivateLink)
+- **Dedicated capacity:** Reserved computing power for consistent performance
+- **On your premises:** Run some models in your own data centres (via EKS Anywhere)
 
-## 2. Privacy Settings
+## Privacy controls
 
-Amazon Bedrock offers strong privacy controls:
-- **Opt-out of Model Training:** By default, your data is not used to train or improve foundation models
-- **Private Endpoints:** Optional access via AWS PrivateLink without exposing traffic to the public internet
-- **HIPAA/PHI Settings:** Optional configuration for handling protected health information (for eligible accounts)
-- **Knowledge Base Privacy:** Controls whether data in knowledge bases can be used for service improvement
+Bedrock protects your data by default:
+- **No model training:** Your data does not train or improve AI models (this is the default setting)
+- **Private endpoints:** Keep traffic off the public internet using AWS PrivateLink
+- **Health data settings:** Configure the service to handle protected health information (if your account is eligible)
+- **Knowledge base privacy:** Control whether your knowledge base data improves the service
 
-## 3. Terms of Use and Privacy Policy
+## Terms and data ownership
 
-- **User Content Ownership:** Customer content processed through Bedrock (inputs and outputs) is owned by the customer, not AWS
-- **Model-specific EULAs:** Each foundation model may have its own End User License Agreement with additional terms
-- **International Data Transfers:** Standard AWS terms address GDPR and UK data protection compliance
-- **Content Restrictions:** Terms explicitly prohibit generating illegal or harmful content
+Key legal points:
+- **You own your content:** Customer content (inputs and outputs) belongs to you, not AWS
+- **Model-specific agreements:** Each AI model may have its own licence terms
+- **Data protection compliance:** Standard AWS terms cover GDPR and UK data protection laws
+- **Content restrictions:** Terms ban generating illegal or harmful content
 
-## 4. Data Management
+## Where your data goes
 
-### 4.1 Server Location and Data Residency
+### Location and residency
 
-- **Regional Deployment:** Available in multiple AWS regions, including Europe (London) for UK data residency requirements
-- **Regional Isolation:** Data processed in the AWS region you select, with clear boundaries between regions
-- **Model Storage:** Custom models and fine-tuning data stored in the region where processing was initiated
-- **Legal Jurisdiction:** Data in London region subject to UK law, though AWS as a US company is also subject to US requirements
+- **UK region available:** Process data in AWS Europe (London) region to meet UK data residency needs
+- **Regional boundaries:** Data stays in the region you choose, with clear separation between regions
+- **Custom models:** Store fine-tuned models in the region where you create them
+- **Legal jurisdiction:** London region data follows UK law (though AWS as a US company also follows US requirements)
 
-### 4.2 Data in Transit
+### Data protection in transit
 
-All communication with Bedrock APIs is encrypted using TLS 1.2 or higher. Additional security options include:
-- **AWS PrivateLink:** Ensures traffic stays within the AWS network and never traverses the public internet
-- **API Request Signing:** SigV4 authentication prevents request tampering or replay attacks
-- **Mutual TLS:** Optional additional encryption layer for sensitive workloads
+All communication uses TLS 1.2 or higher encryption. Extra security options include:
+- **AWS PrivateLink:** Traffic never goes over the public internet
+- **Request signing:** Prevents tampering with API requests
+- **Mutual TLS:** Extra encryption layer for sensitive work
 
-### 4.3 Data at Rest
+### Data protection at rest
 
-- **Standard Inference:** Bedrock does not persistently store request content or model responses for standard usage
-- **Feature Storage:** For fine-tuning, custom models, and knowledge bases, AWS applies encryption at rest using AES-256
-- **Key Management:** Integration with AWS KMS allows customer-managed encryption keys for direct control
-- **Data Deletion:** Mechanisms provided to delete custom models, fine-tuning datasets, and knowledge bases
+- **Standard use:** Bedrock does not store your requests or responses permanently
+- **Feature storage:** Fine-tuning data and knowledge bases use AES-256 encryption
+- **Key management:** Use AWS KMS to control your own encryption keys
+- **Data deletion:** Delete custom models and datasets when you no longer need them
 
-## 5. Audit Logging
+## Audit logs
 
-Bedrock integrates with AWS's logging ecosystem:
-- **CloudTrail:** Records all API calls with identity, time, source IP, request parameters, and response elements
-- **CloudWatch:** Provides metrics and logs for model inference operations, including optional content logging
-- **Guardrails Logging:** Tracks policy violations or blocked content when using content filtering
-- **Evaluation Results:** Stores model performance metrics for tracking model drift and compliance
+Bedrock connects to AWS logging systems:
+- **CloudTrail:** Records all API calls with user identity, time, source IP, and request details
+- **CloudWatch:** Tracks model operations and can optionally log content
+- **Guardrails logging:** Monitors policy violations or blocked content when you use content filtering
+- **Evaluation results:** Stores model performance data to track changes over time
 
-## 6. Access Controls
+## Access controls
 
-Bedrock implements a comprehensive approach to access control:
-- **IAM Policies:** Role-based access control defining which actions principals can perform on which resources
-- **Resource Policies:** Attached directly to Bedrock resources for more specific control
-- **Service Control Policies:** Organisation-wide permission boundaries for consistent security
-- **Condition Keys:** Fine-grained context-based access using attributes like tags, IP addresses, or time
-- **Network Controls:** VPC endpoint policies restricting which principals can access Bedrock
+Bedrock uses multiple security layers:
+- **IAM policies:** Role-based access control which actions users can perform on which resources
+- **Resource policies:** Attach permissions directly to specific models or resources
+- **Organisation policies:** Set permission boundaries across multiple AWS accounts
+- **Condition-based access:** Restrict access based on IP address, time, or other factors
+- **Network controls:** Use VPC endpoints to control network access to Bedrock
 
-## 7. Compliance and Regulatory Requirements
+## Compliance and regulation
 
-AWS Bedrock benefits from AWS's extensive compliance programs:
-- **Security Certifications:** ISO 27001, SOC 2, CSA STAR covering AWS infrastructure
-- **UK Government:** Cyber Essentials Plus, NCSC Cloud Security Principles alignment
-- **Data Protection:** ISO 27018, UK GDPR validation via Data Processing Addendums
-- **Industry-specific:** HIPAA eligibility for certain models and healthcare applications
-- **AI Governance:** Model safety evaluations, content filtering via Bedrock Guardrails, and ongoing evaluation capabilities
+AWS Bedrock benefits from AWS's compliance programmes:
+- **Security certifications:** ISO 27001, SOC 2, CSA STAR covering AWS infrastructure
+- **UK government:** Cyber Essentials Plus, alignment with NCSC Cloud Security Principles
+- **Data protection:** ISO 27018, UK GDPR compliance through Data Processing Agreements
+- **Healthcare:** HIPAA eligibility for certain models and applications
+- **AI governance:** Model safety testing, content filtering (Bedrock Guardrails), ongoing evaluation
 
-## 8. References
+## What to do next
+
+1. Review the [detailed guide](aws-bedrock-detailed.md) for technical specifications
+2. Check which AWS regions meet your data residency requirements
+3. Identify which compliance certifications your department needs
+4. Plan your data protection and access control approach
+
+## References
 
 - [AWS Compliance Programs](https://aws.amazon.com/compliance/programs/)
 - [AWS UK Compliance Resources](https://aws.amazon.com/compliance/uk-compliance/)
