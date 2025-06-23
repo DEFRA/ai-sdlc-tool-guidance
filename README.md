@@ -20,10 +20,14 @@ This guidance provides factual, practical information about:
 - [ChatGPT - Detailed Guidance](/tool-guidance/chat-gpt-detailed.md)
 
 ### Development Tools
+- [Amazon Q for Developers - Summary Guidance](/tool-guidance/amazon-q-developers-summary.md)
+- [Amazon Q for Developers - Detailed Guidance](/tool-guidance/amazon-q-developers-detailed.md)
 - [Cursor - Summary Guidance](/tool-guidance/cursor-summary.md)
 - [Cursor - Detailed Guidance](/tool-guidance/cursor-detailed.md)
 - [GitHub Copilot - Summary Guidance](/tool-guidance/github-copilot-summary.md)
 - [GitHub Copilot - Detailed Guidance](/tool-guidance/github-copilot-detailed.md)
+- [JetBrains AI Assistant for IntelliJ IDEA - Summary Guidance](/tool-guidance/jetbrains-ai-assistant-Intelli-summary.md)
+- [JetBrains AI Assistant for IntelliJ IDEA - Detailed Guidance](/tool-guidance/jetbrains-ai-assistant-Intelli-detailed.md)
 
 ### Enterprise AI Solutions
 - [AWS Bedrock - Summary Guidance](/tool-guidance/aws-bedrock-summary.md)
