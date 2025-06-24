@@ -11,6 +11,16 @@ You'll learn how to:
 - follow privacy and compliance requirements
 - configure tools with best practice settings
 
+## Use only approved AI tools
+You must only use AI tools that appear in this guidance. This guidance contains vetted and approved tools for use across Defra.
+
+### Why we have approved tools
+Using approved tools helps ensure:
+
+- compliance with government security standards
+- data protection requirements are met
+- tools work effectively within Defra's technical environment
+
 ## AI tools by purpose
 
 ### For general productivity
