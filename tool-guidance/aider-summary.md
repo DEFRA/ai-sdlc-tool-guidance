@@ -4,7 +4,7 @@ This summary covers the key points from the [detailed guide](aider-detailed.md).
 
 ## What you need to know
 
-Aider is an AI coding assistant that works in your terminal. It helps government developers write, fix, and improve code using AI models like GPT-4 or Claude.
+Aider is an AI coding assistant that works in your terminal. It helps government developers write, fix, and improve code using AI models like GPT or Claude.
 
 ### What Aider does
 
@@ -121,41 +121,6 @@ Aider records everything locally:
 - Code snippets discussed
 - When everything happened
 
-### Review Aider's work
-
-**See recent changes:**
-```bash
-git log --oneline --author="aider"
-```
-
-**Check a specific change:**
-```bash
-git show <commit-hash>
-```
-
-**Undo the last change:**
-```bash
-aider /undo
-```
-
-**Watch what gets sent to AI:**
-```bash
-aider --verbose
-```
-
-### Control Git operations
-
-**Default behaviour:**
-- Saves changes locally only
-- Never pushes to remote servers
-- You control what gets shared
-
-**Restrict access:**
-```bash
-aider --no-git              # Stop all Git operations
-aider --no-auto-commits     # Make changes but don't save automatically
-```
-
 ## Control user access
 
 ### How Aider runs
@@ -216,64 +181,3 @@ You keep full ownership of:
 - All modified versions
 
 Open source licence allows unlimited government use.
-
-## Before you start
-
-### Get approval first
-
-1. **Security review** - Have IT security assess the tool
-2. **Legal check** - Verify against department policies
-3. **Data classification** - Match AI models to your data sensitivity
-4. **Network approval** - Confirm AI service connections are allowed
-
-### Set up securely
-
-1. **Install properly** - Use official sources only
-2. **Choose AI models** based on data sensitivity:
-   - Local models for sensitive code
-   - Cloud models for less sensitive work
-3. **Configure privacy:**
-   ```bash
-   aider --analytics-disable
-   ```
-4. **Test safely** - Start with non-sensitive code
-
-### Create usage rules
-
-**Good practices:**
-- Review all AI-generated code
-- Use clear instructions for better results
-- Keep chat logs for audits
-- Never paste sensitive data in chat
-- Use local models for classified work
-
-**Avoid using for:**
-- Highly classified code
-- Personal data processing
-- Production without review
-- External repositories
-
-## Get help
-
-**Official support:**
-- [Documentation](https://aider.chat/docs/)
-- [GitHub](https://github.com/paul-gauthier/aider)
-- Email: security@aider.chat
-
-**Training topics:**
-- Writing effective prompts
-- Reviewing AI code suggestions
-- Understanding Git integration
-- Security best practices
-
-## Next steps
-
-1. **Start small** - Test on low-risk project
-2. **Get feedback** - Ask developers and security team
-3. **Update policies** - Refine based on experience
-4. **Expand gradually** - Add more projects as confidence grows
-5. **Monitor regularly** - Check Git commits and chat logs
-
-**Key choice:** Cloud AI models (faster, more features) or local models (more secure, slower).
-
-Start with local models for sensitive code, cloud models for general development.

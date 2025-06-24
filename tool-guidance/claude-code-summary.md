@@ -4,7 +4,7 @@ This summary covers the key points from the [detailed guide](claude-code-detaile
 
 ## What you need to know
 
-Claude Code is an AI coding assistant that works in your terminal. It helps government developers write, fix, and test code while keeping your data secure.
+Claude Code is an AI coding assistant that works in your terminal. It helps users write, fix, and test code while keeping your data secure.
 
 ### What Claude Code does
 
@@ -40,28 +40,6 @@ If your department uses Claude Enterprise, administrators can:
 ```
 CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1
 ```
-
-## Know your legal rights
-
-### You own your code
-
-Anthropic's terms are clear:
-- You keep ownership of code you write
-- You own code that Claude generates
-- Anthropic cannot train their AI on your code without permission
-
-### Data processing rules
-
-Anthropic processes data for government customers under these rules:
-- Your department controls how data gets used
-- Anthropic can only use data to provide the service
-- EU data protection rules apply
-- UK privacy laws are followed
-
-**Review these documents first:**
-- Commercial Terms of Service
-- Privacy Policy  
-- Data Processing Addendum
 
 ## Understand data storage
 
@@ -170,35 +148,3 @@ Anthropic has:
 ### Government approval
 
 **FedRAMP High** approved (US government standard) - shows it meets high security requirements.
-
-## Before you start
-
-### Get these approvals first
-
-1. **Check data classification** - Ensure your data is suitable for cloud processing
-2. **Get IT security approval** - Have your security team review the tool
-3. **Legal review** - Get lawyers to check the Data Processing Addendum  
-4. **Train your team** - Ensure staff know how to use it safely
-
-### Set it up properly
-
-1. **Use enterprise account** with your department's domain
-2. **Turn on audit logging** for all activity
-3. **Set minimum data retention** period
-4. **Choose UK/EU hosting** if data residency is required
-5. **Connect to your login system** for secure access
-
-## Get help
-
-**Contact Anthropic enterprise support for:**
-- Security questionnaires
-- Compliance documents
-- Custom setups
-- Administrator training
-
-**Government guidance:**
-- [Cloud Security Principles](https://gov.uk/cloud-security-principles)
-- [Data Protection Act 2018](https://gov.uk/data-protection)
-- [NCSC Cloud Security](https://ncsc.gov.uk/cloud-security)
-
-**Next step:** Work with your IT team to evaluate Claude Code against your department's security policies.

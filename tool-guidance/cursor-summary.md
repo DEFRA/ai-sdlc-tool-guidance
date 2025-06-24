@@ -14,16 +14,26 @@ The service has different tiers:
 
 ## Privacy controls
 
-Cursor provides strong privacy controls:
-- **Privacy Mode:** Ensures your source code and prompts are never stored or used for training
-- **Data processing:** When Privacy Mode is enabled, data stays only in temporary memory or short-term encrypted caches
-- **Automatic enforcement:** Privacy Mode is automatically enforced for Business and Enterprise accounts
-- **Manual activation:** Free and Pro users must enable Privacy Mode manually
+Cursor now offers three distinct privacy stances:
+
+- **Privacy Mode (Legacy):** Keeps all of your code off Cursor's servers - zero data retention or storage
+- **Privacy Mode:** Still enforces zero-retention at model providers but allows encrypted, narrowly-scoped code storage so features like Background Agents and Memories can run  
+- **Standard (privacy-off):** Permits broad telemetry and longer code retention for product improvement
+
+**For UK government environments:**
+- **Legacy mode** is the safest baseline - no code stored on Cursor's servers at all
+- **Privacy Mode** may be acceptable with risk assessment where advanced features (Background Agents, Memories) provide clear business benefit that outweighs the limited additional data exposure
+- **Standard mode** should not be used for government work due to broad data collection
+
+**Automatic enforcement:**
+- Business and Enterprise accounts automatically enforce Privacy Mode (not Legacy) by default
+- Free and Pro users must manually select their preferred privacy stance
+- Individual settings cannot override organisational defaults on Business/Enterprise plans
 
 ## Terms and data ownership
 
 **Data handling and Privacy Mode:**  
-The Privacy Policy (updated 8 November 2024) explains how personal data is collected and processed. With Privacy Mode enabled, code is never stored or used for training. With Privacy Mode off, some data (like code snippets and prompts) may be kept for telemetry and model improvement.
+The Privacy Policy (updated 8 November 2024) explains how personal data is collected and processed. With Privacy Mode (Legacy) enabled, no code is stored anywhere. With Privacy Mode enabled, code is never stored or used for training by model providers, but encrypted, narrowly-scoped code storage may occur on Cursor's servers to enable advanced features. With privacy off, some data (like code snippets and prompts) may be kept for telemetry and model improvement.
 
 **International data transfers:**  
 The policy states that data is processed on US-based servers. For UK/EU users, Standard Contractual Clauses or equivalent safeguards protect international transfers.
@@ -47,7 +57,11 @@ Data is protected in transit using TLS 1.2. Any code that is stored uses AES-256
 
 Cursor may store vector embeddings and metadata (not raw source code) for features like codebase indexing. This ensures that searchable artifacts cannot be reversed to reveal original content.
 
-When privacy mode is enabled, no data is stored permanently. Data stays only in temporary memory or short-term encrypted caches and is discarded immediately after processing.
+With Privacy Mode (Legacy) enabled, no data is stored permanently - everything is processed only in temporary memory or short-term encrypted caches and discarded immediately after processing.
+
+With Privacy Mode enabled, encrypted, narrowly-scoped code storage may occur to enable advanced features like Background Agents and Memories, but zero-retention agreements ensure model providers do not store your code.
+
+With privacy off, broader code data may be stored for telemetry and product improvement.
 
 ### Third-party processing  
 
@@ -72,18 +86,3 @@ Cursor's policies align with GDPR principles - emphasising data minimisation and
 
 **Certifications and assurance**  
 Cursor is SOC 2 Type II certified, showing its commitment to security and operational best practices. However, it does not offer a UK-sovereign cloud option.
-
-## What to do next
-
-1. Review the [detailed guide](cursor-detailed.md) for technical specifications
-2. Decide if US data processing is acceptable for your use case
-3. Check if Privacy Mode meets your data protection requirements
-4. Consider whether SOC 2 Type II certification meets your compliance needs
-
-## References
-
-- [Security](https://www.cursor.com/security)
-- [Enterprise](https://www.cursor.com/enterprise)
-- [Privacy Policy](https://www.cursor.com/privacy)
-- [Pricing](https://www.cursor.com/pricing)
-- [Do the Cursor Policies comply with GDPR fully?](https://forum.cursor.com/t/do-the-cursor-policies-comply-with-gdpr-fully/20294)

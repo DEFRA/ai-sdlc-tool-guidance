@@ -4,7 +4,7 @@ This summary covers the key points from the [detailed guide](claude-detailed.md)
 
 ## What you need to know
 
-Claude is an AI chat assistant created by Anthropic. It helps government staff write documents, analyse content, and answer questions. You access it through a web browser or mobile app.
+Claude is an AI chat assistant created by Anthropic. It helps users write documents, analyse content, and answer questions. You access it through a web browser or mobile app.
 
 ### What Claude does
 
@@ -53,29 +53,6 @@ Claude is an AI chat assistant created by Anthropic. It helps government staff w
 - Single sign-on integration
 - Audit logging for compliance
 - Administrator controls over user access
-
-## Know your legal position
-
-### Key documents to review
-
-- Consumer Terms of Service (personal use)
-- Privacy Policy (how data is handled)
-- Commercial Terms (business use)
-- Acceptable Use Policy (what's allowed)
-
-### Your rights under UK data protection law
-
-You can:
-- Access your personal data
-- Delete your data
-- Export your information
-- Object to certain processing
-- Request corrections
-
-### Data controller relationships
-
-- **Personal accounts:** Anthropic controls your data processing
-- **Enterprise accounts:** Your organisation has more control
 
 ## Understand where your data goes
 
@@ -186,50 +163,3 @@ Claude has achieved:
 - No UK-specific government certifications
 - May need Data Protection Impact Assessment
 - Custom arrangements required for UK data residency
-
-## Before you start
-
-### Get approval first
-
-1. **IT security review** - Have your security team assess the service
-2. **Legal review** - Check terms against your policies
-3. **Data classification** - Ensure data is suitable for US processing
-4. **Privacy assessment** - Complete DPIA if handling personal data
-
-### Choose your approach
-
-**For government use:**
-- Use Enterprise plan for enhanced controls
-- Configure SSO with your identity provider
-- Set appropriate data retention policies
-- Train users on proper use guidelines
-
-### Create usage guidelines
-
-**Appropriate for:**
-- Research and information gathering
-- Document drafting and editing
-- Code analysis and explanation
-- Creative brainstorming
-- Data summarisation (non-sensitive)
-
-**Avoid for:**
-- Classified information
-- Personal data without proper controls
-- Security credentials or passwords
-- Decision-making on sensitive matters
-- Information that must stay in UK
-
-## Getting help
-
-### Official resources
-
-- [Claude.ai Help Centre](https://support.anthropic.com)
-- [Anthropic Privacy Policy](https://www.anthropic.com/legal/privacy)
-- [Anthropic Terms of Service](https://www.anthropic.com/legal/consumer-terms)
-
-### UK government guidance
-
-- [Data Protection Act 2018](https://gov.uk/data-protection)
-- [NCSC Cloud Security Principles](https://ncsc.gov.uk/collection/cloud-security)
-- [GOV.UK AI Guidance](https://gov.uk/guidance/artificial-intelligence)
