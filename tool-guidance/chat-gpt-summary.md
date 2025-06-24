@@ -1,76 +1,67 @@
 # ChatGPT – Summary
 
-This is a high-level summary of the [detailed report](chat-gpt-detailed.md)
+This summary covers the key points from the [detailed guide](chat-gpt-detailed.md). Use it to understand how ChatGPT can work in government environments.
 
-## 1. Tool Overview
+## What ChatGPT does
 
-ChatGPT is an AI-driven chatbot available via a web interface at [chatgpt.com](https://chatgpt.com). Developed by OpenAI, it uses advanced language models (such as GPT‑4) to generate conversational responses and assist with tasks like writing, coding, and brainstorming.
+ChatGPT is an AI chatbot you can access at [chatgpt.com](https://chatgpt.com). OpenAI built it using large language models to create conversational responses and help with writing, coding, and brainstorming tasks.
 
-The service is offered in several subscription tiers:
-- **Free:** Basic access using GPT‑3.5 with standard features.
-- **ChatGPT Plus:** A monthly subscription (US$20) that offers enhanced performance and access to GPT‑4.
-- **ChatGPT Team:** Designed for small organisations, this plan provides shared workspaces and enhanced user management.
-- **ChatGPT Enterprise:** Tailored for large organisations, it offers advanced security, audit logging, custom data retention options, and the ability to store data at rest within Europe.
+The service has different subscription levels:
+- **Free:** Basic access using smaller GPT models with standard features
+- **ChatGPT Plus:** Monthly subscription (US$20) with enhanced performance and GPT advanced model access
+- **ChatGPT Team:** For small organisations with shared workspaces and user management
+- **ChatGPT Enterprise:** For large organisations with advanced security, audit logging, custom data retention, and European data storage options
 
-## 2. Privacy Settings
+## Privacy controls
 
-ChatGPT provides robust privacy controls that enable users to manage their data:
-- **Chat History Toggle:** Users can disable chat history via **Settings > Data Controls**. When disabled, conversations are not stored for model training and are retained only for abuse monitoring, then deleted after 30 days. Free and Plus plan users must enable this setting. 
-- **Temporary Chat Mode:** Conversations in this mode are treated as ephemeral and are not saved in the persistent sidebar.
-- **Data Export and Account Deletion:** Users have the option to export their conversation history or delete their account entirely.
-- **Business Plans:** In ChatGPT Team and Enterprise plans, data is automatically excluded from model training by default
+ChatGPT gives you strong privacy controls:
+- **Chat history toggle:** Turn off chat history in **Settings > Data Controls**. When off, conversations are not stored for model training and are kept only for abuse monitoring, then deleted after 30 days. Free and Plus users must enable this setting manually.
+- **Temporary chat mode:** Conversations in this mode are temporary and do not appear in your persistent chat history
+- **Data export and account deletion:** Export your conversation history or delete your account completely
+- **Business plans:** ChatGPT Team and Enterprise exclude data from model training by default
 
-## 3. Terms of Use and Privacy Policy
+## Terms and data ownership
 
-- **User Content Ownership:** Users (or organisations) retain ownership of the content they input and receive, which is essential for intellectual property and confidentiality.
-- **Data Review and Retention:** While OpenAI may review or retain data for abuse prevention or legal purposes, clear terms are in place to safeguard user data.
-- **Tailored Terms for Business:** Separate business terms and a UK/EEA-specific version are available, ensuring alignment with local legal requirements and the needs of government users.
+Key legal points:
+- **You own your content:** Users (or organisations) keep ownership of content they input and receive
+- **Data review and retention:** OpenAI may review or keep data to prevent abuse or for legal reasons, but clear terms protect your data
+- **Business terms:** Separate business terms and UK/EEA versions align with local legal requirements for government users
 
-## 4. Data Management
+## Where your data goes
 
-### 4.1 Multi-Regional Processing
+### Data storage locations
 
-- **Default Storage:** By default, ChatGPT data (including conversation content and account information) is stored on OpenAI's servers in the United States.
-- **European Data Residency:** From February 2025, ChatGPT Enterprise and Education customers can opt to have their data stored at rest in Europe. This helps meet European and UK data sovereignty requirements. This option is not available for Free, Plus, or Team plans.
+- **Default storage:** ChatGPT stores data (including conversation content and account information) on OpenAI servers in the United States by default
+- **European data residency:** From February 2025, ChatGPT Enterprise and Education customers can choose to store their data at rest in Europe. This helps meet European and UK data sovereignty requirements. This option is not available for Free, Plus, or Team plans.
 
-### 4.2 Data in Transit
+### Data protection in transit
 
-All communications between the user's browser and the ChatGPT service are encrypted using TLS (Transport Layer Security) version 1.2 or higher.
+All communications between your browser and ChatGPT use TLS (Transport Layer Security) version 1.2 or higher encryption.
 
-### 4.3 Data at Rest
+### Data protection at rest
 
-All stored user data is encrypted at rest using AES‑256 encryption.
+All stored user data uses AES‑256 encryption at rest.
 
-### 4.4 Retention Policies  
+### How long data is kept
 
-  - **Free/Plus:** Data is retained indefinitely when chat history is enabled. When conversations are removed, they are deleted within 30 days. Users can disable chat history, after which their data remains private, is not used for training, and follows the 30-day deletion policy.
-  - **Team:** User data remains private, is not used for training, and follows the 30-day deletion policy upon removal.
-  - **Enterprise:** Organisations can configure custom data retention periods to meet specific regulatory or internal policies.
+- **Free/Plus:** Data is kept indefinitely when chat history is enabled. When you remove conversations, they are deleted within 30 days. You can turn off chat history - then your data stays private, is not used for training, and follows the 30-day deletion policy.
+- **Team:** User data stays private, is not used for training, and follows the 30-day deletion policy when removed.
+- **Enterprise:** Organisations can set custom data retention periods to meet specific regulatory or internal policies.
 
-## 5. Auditing
+## Audit logs
 
-- **Audit Logging for Enterprise:** ChatGPT Enterprise offers audit logging via a Compliance API, allowing detailed monitoring of conversation logs and metadata. This supports security oversight and compliance with internal policies.
-- **Limited Auditing in Other Plans:** In Team plans, only basic usage metrics are available for administrators, with individual conversation logs remaining private.
+- **Enterprise audit logging:** ChatGPT Enterprise offers audit logging through a Compliance API, allowing detailed monitoring of conversation logs and metadata. This supports security oversight and compliance with internal policies.
+- **Limited auditing in other plans:** Team plans only have basic usage metrics for administrators - individual conversation logs stay private.
 
-## 6. Access Controls
+## Access controls
 
-- **Individual Accounts (Free/Plus):** These accounts offer standard security features, including two‑factor authentication.
-- **Team Workspaces:** ChatGPT Team provides shared workspaces with administrative tools for user management, though individual chat histories remain private.
-- **Enterprise Integration:** ChatGPT Enterprise supports Single Sign-On (SSO), SCIM provisioning, and fine‑grained access controls. This integration allows organisations (including government bodies) to enforce secure access in line with their internal identity management systems.
+- **Individual accounts (Free/Plus):** Standard security features including two‑factor authentication
+- **Team workspaces:** Shared workspaces with administrative tools for user management, though individual chat histories stay private
+- **Enterprise integration:** Single Sign-On (SSO), SCIM provisioning, and detailed access controls. This integration lets organisations (including government bodies) enforce secure access using their internal identity management systems.
 
-## 7. Compliance and Regulatory Considerations
+## Compliance and regulation
 
-ChatGPT adheres to recognised industry standards and regulatory requirements:
-- **Security Certifications:** The service holds SOC 2 Type II certification and is listed at CSA STAR Level 1.
-- **GDPR and UK Data Protection:** OpenAI supports GDPR compliance through a Data Processing Addendum (DPA) and offers a European data residency option, addressing both EU and UK data protection needs.
-- **Additional Standards:** For healthcare or other sensitive sectors, OpenAI is open to signing Business Associate Agreements (BAAs) and undergoes regular third‑party penetration testing and bug bounty programmes.
-
-## 8. References
-
-- [ChatGPT Overview](https://openai.com/chatgpt/overview/)
-- [ChatGPT Pricing & Plans](https://openai.com/chatgpt/pricing/)
-- [Data Controls FAQ](https://help.openai.com/en/articles/7730893-data-controls-faq)
-- [OpenAI launches data residency in Europe](https://techcrunch.com/2025/02/06/openai-launches-data-residency-in-europe/)
-- [Enterprise privacy at OpenAI](https://openai.com/enterprise-privacy/)
-- [Compliance API for Enterprise Customers](https://help.openai.com/en/articles/9261474-compliance-apis-for-enterprise-customers)
-
+ChatGPT meets recognised industry standards and regulatory requirements:
+- **Security certifications:** SOC 2 Type II certification and CSA STAR Level 1 listing
+- **GDPR and UK data protection:** OpenAI supports GDPR compliance through a Data Processing Agreement (DPA) and offers European data residency, addressing both EU and UK data protection needs
+- **Additional standards:** For healthcare or other sensitive sectors, OpenAI can sign Business Associate Agreements (BAAs) and undergoes regular third‑party penetration testing and bug bounty programmes

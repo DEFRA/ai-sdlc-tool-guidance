@@ -1,4 +1,3 @@
-```
 NOTE - Don't forget to attach the report!
 
 I have read the attached report, and the written my initial summary of key facts below. Please review and refine these key facts. 
@@ -30,5 +29,3 @@ The report must have the at-least following sections:
 ## Compliance & Regulatory Considerations
 
 ## References
-
-```

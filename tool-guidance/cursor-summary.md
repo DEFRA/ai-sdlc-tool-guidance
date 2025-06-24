@@ -1,82 +1,88 @@
 # Cursor - Summary
 
-This is a high-level summary of the [detailed report](cursor-detailed.md)
+This summary covers the key points from the [detailed guide](cursor-detailed.md). Use it to understand how Cursor can work in government environments.
 
-## 1. Tool Overview
+## What Cursor does
 
-Cursor is an AI-augmented code editor (available at [cursor.com](https://www.cursor.com/)) designed to help developers write and refactor code more efficiently. 
+Cursor is an AI-enhanced code editor available at [cursor.com](https://www.cursor.com/). It helps developers write and refactor code more efficiently by providing AI suggestions and assistance.
 
-The service is offered in several tiers:
+The service has different tiers:
 - **Free "Hobby":** Basic access for individual developers
 - **Pro:** Enhanced features for individual developers
-- **Business:** Designed for organisations with team-focused features
-- **Enterprise:** Tailored for large organisations with advanced security and management capabilities
+- **Business:** For organisations with team-focused features
+- **Enterprise:** For large organisations with advanced security and management capabilities
 
-## 2. Privacy Settings
+## Privacy controls
 
-Cursor provides robust privacy controls:
-- **Privacy Mode:** Ensures source code and prompts are never stored or used for training
-- **Data Processing:** When Privacy Mode is enabled, data remains only in transient memory or short-term encrypted caches
-- **Automatic Enforcement:** Privacy Mode is automatically enforced for Business and Enterprise accounts
-- **Manual Activation:** Free and Pro users must enable Privacy Mode manually
+Cursor now offers three distinct privacy stances:
 
-## 3. Terms of Use and Privacy Policy
+- **Privacy Mode (Legacy):** Keeps all of your code off Cursor's servers - zero data retention or storage
+- **Privacy Mode:** Still enforces zero-retention at model providers but allows encrypted, narrowly-scoped code storage so features like Background Agents and Memories can run  
+- **Standard (privacy-off):** Permits broad telemetry and longer code retention for product improvement
 
-**Data Handling & Privacy Mode:**  
-The Privacy Policy, last updated on 8 November 2024, details how personal data is collected and processed. With Privacy Mode enabled, code is never stored or used for training. With Privacy Mode off, some data (like code snippets and prompts) may be retained for telemetry and model improvement.
+**For UK government environments:**
+- **Legacy mode** is the safest baseline - no code stored on Cursor's servers at all
+- **Privacy Mode** may be acceptable with risk assessment where advanced features (Background Agents, Memories) provide clear business benefit that outweighs the limited additional data exposure
+- **Standard mode** should not be used for government work due to broad data collection
 
-**International Data Transfers:**  
-The policy explicitly states that data is processed on US-based servers, and for UK/EU users, Standard Contractual Clauses or equivalent safeguards are used for international transfers.
+**Automatic enforcement:**
+- Business and Enterprise accounts automatically enforce Privacy Mode (not Legacy) by default
+- Free and Pro users must manually select their preferred privacy stance
+- Individual settings cannot override organisational defaults on Business/Enterprise plans
 
-**GDPR Compliance:**  
-Cursor's practices emphasise data minimisation, user rights (such as account deletion), and overall compliance with GDPR principles. However, UK government users should review these policies closely to ensure they meet specific departmental requirements.
+## Terms and data ownership
 
-## 4. Data Management
+**Data handling and Privacy Mode:**  
+The Privacy Policy (updated 8 November 2024) explains how personal data is collected and processed. With Privacy Mode (Legacy) enabled, no code is stored anywhere. With Privacy Mode enabled, code is never stored or used for training by model providers, but encrypted, narrowly-scoped code storage may occur on Cursor's servers to enable advanced features. With privacy off, some data (like code snippets and prompts) may be kept for telemetry and model improvement.
 
-### 4.1 Multi-Regional Processing
+**International data transfers:**  
+The policy states that data is processed on US-based servers. For UK/EU users, Standard Contractual Clauses or equivalent safeguards protect international transfers.
 
-Although a UK user's requests may first reach a London AWS data centre for low latency, most processing occurs on US-based infrastructure (with some parts also on Azure and Google Cloud). Custom AI models, hosted via Fireworks, might run in the US, Europe, or Asia.
+**GDPR compliance:**  
+Cursor's practices emphasise data minimisation, user rights (such as account deletion), and overall GDPR compliance. However, UK government users should review these policies closely to make sure they meet specific departmental requirements.
 
-Even if you configure your own API keys, all requests will still route through Cursor's backend.
+## Where your data goes
+
+### Data processing locations
+
+Although a UK user's requests may first reach a London AWS data centre for low latency, most processing happens on US-based infrastructure (with some parts also on Azure and Google Cloud). Custom AI models, hosted via Fireworks, might run in the US, Europe, or Asia.
+
+Even if you configure your own API keys, all requests still route through Cursor's backend.
   
-### 4.2 Data in Transit  
+### Data protection in transit  
 
-Data is protected in transit using TLS 1.2, and any code that is stored is encrypted with AES-256. Minimal retention is practiced, as code is primarily processed in memory.
+Data is protected in transit using TLS 1.2. Any code that is stored uses AES-256 encryption. Minimal retention is practised, as code is primarily processed in memory.
 
-### 4.3 Data at Rest
+### Data protection at rest
 
-Cursor may store vector embeddings and metadata (not raw source code) for features like codebase indexing, ensuring that searchable artifacts can't be reversed to reveal original content.
+Cursor may store vector embeddings and metadata (not raw source code) for features like codebase indexing. This ensures that searchable artifacts cannot be reversed to reveal original content.
 
-When privacy mode is enabled no data is stored persistently. Data remains only in transient memory or short-term encrypted caches and is discarded immediately after processing.
+With Privacy Mode (Legacy) enabled, no data is stored permanently - everything is processed only in temporary memory or short-term encrypted caches and discarded immediately after processing.
 
-### 4.4 Third-Party Processing  
+With Privacy Mode enabled, encrypted, narrowly-scoped code storage may occur to enable advanced features like Background Agents and Memories, but zero-retention agreements ensure model providers do not store your code.
 
-Code data may be sent to US-based AI model providers (such as OpenAI and Anthropic) under zero data retention agreements, ensuring that your data is not stored beyond immediate processing.
+With privacy off, broader code data may be stored for telemetry and product improvement.
 
-## 5. Auditing
+### Third-party processing  
 
-Its logging practices, especially for privacy-mode requests, are designed to avoid capturing sensitive code details.
+Code data may be sent to US-based AI model providers (such as OpenAI and Anthropic) under zero data retention agreements. This ensures your data is not stored beyond immediate processing.
 
-## 6. Access Controls
+## Audit logs
+
+Cursor's logging practices, especially for privacy-mode requests, avoid capturing sensitive code details.
+
+## Access controls
 
 Cursor applies least-privilege and multi-factor authentication for internal access.
 
-For enterprise users, an admin dashboard provides aggregated usage metrics (e.g., number of queries and completions) without retaining the content of your code.
+For enterprise users, an admin dashboard provides aggregated usage metrics (for example, number of queries and completions) without keeping the content of your code.
 
 Cursor integrates with enterprise identity systems (SSO with SAML 2.0/OIDC) and enforces role-based access. Even if individual settings could be adjusted locally, the backend defaults ensure Privacy Mode is maintained.
 
-## 7. Compliance & Regulatory Considerations
+## Compliance and regulation
 
-**GDPR & Data Minimisation**  
-Cursor's policies align with GDPR principles—emphasising data minimisation and providing user rights such as data deletion. However, UK government users must note that data is ultimately processed in the US (or other jurisdictions) under mechanisms such as Standard Contractual Clauses.
+**GDPR and data minimisation**  
+Cursor's policies align with GDPR principles - emphasising data minimisation and providing user rights such as data deletion. However, UK government users must note that data is ultimately processed in the US (or other jurisdictions) under mechanisms such as Standard Contractual Clauses.
 
-**Certifications & Assurance**  
-Cursor is SOC 2 Type II certified, underscoring its commitment to security and operational best practices, though it does not offer a UK-sovereign cloud option.
-
-## 8. References
-
-- [Security](https://www.cursor.com/security)
-- [Enterprise](https://www.cursor.com/enterprise)
-- [Privacy Policy](https://www.cursor.com/privacy)
-- [Pricing](https://www.cursor.com/pricing)
-- [Do the Cursor Policies comply with GDPR fully?](https://forum.cursor.com/t/do-the-cursor-policies-comply-with-gdpr-fully/20294)
+**Certifications and assurance**  
+Cursor is SOC 2 Type II certified, showing its commitment to security and operational best practices. However, it does not offer a UK-sovereign cloud option.
