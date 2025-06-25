@@ -1,5 +1,7 @@
 # ChatGPT – Summary
 
+**Approval status:** Approved with restrictions - you may use this tool, but be cautious about what data you share. You must not enter or share anything that is not already published in the public domain.
+
 This summary covers the key points from the [detailed guide](chat-gpt-detailed.md). Use it to understand how ChatGPT can work in government environments.
 
 ## What ChatGPT does

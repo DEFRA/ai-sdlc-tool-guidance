@@ -1,5 +1,7 @@
 # Windsurf - Summary
 
+**Approval status:** Under review - this tool is not currently approved for use. We are reviewing it for potential approval, but cannot commit to if or when this might happen.
+
 This summary covers the key points from the [detailed guide](windsurf-detailed.md). Use it to understand how Windsurf can work in government environments.
 
 ## What Windsurf does
