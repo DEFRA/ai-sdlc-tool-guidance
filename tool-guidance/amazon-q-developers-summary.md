@@ -1,5 +1,7 @@
 # Amazon Q Developer - Summary
 
+**Approval status:** Approved - you can use this tool within Defra when you follow the tool guidance advice.
+
 This summary covers the key points from the [detailed guide](amazon-q-developers-detailed.md). Use it to understand how Amazon Q Developer can work in government environments.
 
 ## What Amazon Q Developer does

@@ -1,5 +1,7 @@
 # Google Gemini - Summary
 
+**Approval status:** Approved with restrictions - you may use this tool, but be cautious about what data you share. You must not enter or share anything that is not already published in the public domain.
+
 This summary covers the key points from the [detailed guide](google-gemini-detailed.md). Use it to understand how Google Gemini can work in government environments.
 
 ## What you need to know

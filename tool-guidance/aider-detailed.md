@@ -1,5 +1,7 @@
 # Aider - Detailed Guide
 
+**Approval status:** Under review - this tool is not currently approved for use. We are reviewing it for potential approval, but cannot commit to if or when this might happen.
+
 ## What Aider does
 
 Aider is an AI coding assistant that works in your terminal. It helps developers write, edit, and fix code by connecting to AI models like GPT-4 or Claude.

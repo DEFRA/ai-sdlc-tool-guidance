@@ -1,5 +1,7 @@
 # GitHub Copilot for Business - Summary
 
+**Approval status:** Approved - you can use this tool within Defra when you follow the tool guidance advice.
+
 This summary covers the key points from the [detailed guide](github-copilot-detailed.md). Use it to understand how GitHub Copilot can work in government environments.
 
 ## What GitHub Copilot does

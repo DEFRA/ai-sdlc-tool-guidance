@@ -1,5 +1,5 @@
 # Defra AI Tool Guidance
-Version 1.0
+Version 1.1
 
 This repository contains guidance for the use of artificial intelligence (AI) tools within the Department for Environment, Food & Rural Affairs (Defra) and its associated organisations.
 
@@ -21,24 +21,31 @@ Using approved tools helps ensure:
 - data protection requirements are met
 - tools work effectively within Defra's technical environment
 
-## AI tools by purpose
+## AI tools by approval status
 
-### For general productivity
-- **ChatGPT** - [Summary](tool-guidance/chat-gpt-summary.md) • [Detailed guide](tool-guidance/chat-gpt-detailed.md)
-- **Claude** - [Summary](tool-guidance/claude-summary.md) • [Detailed guide](tool-guidance/claude-detailed.md)
-- **Google Gemini** - [Summary](tool-guidance/google-gemini-summary.md) • [Detailed guide](tool-guidance/google-gemini-detailed.md)
+### Approved
+These tools are approved for use within Defra when you follow the tool guidance advice.
 
-### For software development
-- **Aider** - [Summary](tool-guidance/aider-summary.md) • [Detailed guide](tool-guidance/aider-detailed.md)
 - **Amazon Q for Developers** - [Summary](tool-guidance/amazon-q-developers-summary.md) • [Detailed guide](tool-guidance/amazon-q-developers-detailed.md)
-- **Claude Code** - [Summary](tool-guidance/claude-code-summary.md) • [Detailed guide](tool-guidance/claude-code-detailed.md)
+- **AWS Bedrock** - [Summary](tool-guidance/aws-bedrock-summary.md) • [Detailed guide](tool-guidance/aws-bedrock-detailed.md)
+- **Azure AI Foundry** - [Summary](tool-guidance/azure-ai-foundry-summary.md) • [Detailed guide](tool-guidance/azure-ai-foundry-detailed.md)
 - **Cursor** - [Summary](tool-guidance/cursor-summary.md) • [Detailed guide](tool-guidance/cursor-detailed.md)
 - **GitHub Copilot** - [Summary](tool-guidance/github-copilot-summary.md) • [Detailed guide](tool-guidance/github-copilot-detailed.md)
+
+### Approved with restrictions
+You may use these AI tools, but be cautious about what data you share. You must not enter or share anything that is not already published in the public domain.
+
+- **ChatGPT** - [Summary](tool-guidance/chat-gpt-summary.md) • [Detailed guide](tool-guidance/chat-gpt-detailed.md)
+- **Google Gemini** - [Summary](tool-guidance/google-gemini-summary.md) • [Detailed guide](tool-guidance/google-gemini-detailed.md)
+
+### Under review
+These tools are not currently approved for use. We are reviewing them for potential approval, but cannot commit to if or when this might happen.
+
+- **Aider** - [Summary](tool-guidance/aider-summary.md) • [Detailed guide](tool-guidance/aider-detailed.md)
+- **Claude** - [Summary](tool-guidance/claude-summary.md) • [Detailed guide](tool-guidance/claude-detailed.md)
+- **Claude Code** - [Summary](tool-guidance/claude-code-summary.md) • [Detailed guide](tool-guidance/claude-code-detailed.md)
 - **JetBrains AI Assistant** - [Summary](tool-guidance/jetbrains-ai-assistant-intellij-summary.md) • [Detailed guide](tool-guidance/jetbrains-ai-assistant-intellij-detailed.md)
 - **Windsurf** - [Summary](tool-guidance/windsurf-summary.md) • [Detailed guide](tool-guidance/windsurf-detailed.md)
-
-### For enterprise AI solutions
-- **AWS Bedrock** - [Summary](tool-guidance/aws-bedrock-summary.md) • [Detailed guide](tool-guidance/aws-bedrock-detailed.md)
 
 ## AI playbooks and further guidance
 
