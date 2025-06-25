@@ -28,7 +28,7 @@ These tools are approved for use within Defra when you follow the tool guidance 
 
 - **Amazon Q for Developers** - [Summary](tool-guidance/amazon-q-developers-summary.md) • [Detailed guide](tool-guidance/amazon-q-developers-detailed.md)
 - **AWS Bedrock** - [Summary](tool-guidance/aws-bedrock-summary.md) • [Detailed guide](tool-guidance/aws-bedrock-detailed.md)
-- **Azure AI Factory** - [Summary](tool-guidance/azure-ai-factory-summary.md) • [Detailed guide](tool-guidance/azure-ai-factory-detailed.md)
+- **Azure AI Foundry** - [Summary](tool-guidance/azure-ai-foundry-summary.md) • [Detailed guide](tool-guidance/azure-ai-foundry-detailed.md)
 - **Cursor** - [Summary](tool-guidance/cursor-summary.md) • [Detailed guide](tool-guidance/cursor-detailed.md)
 - **GitHub Copilot** - [Summary](tool-guidance/github-copilot-summary.md) • [Detailed guide](tool-guidance/github-copilot-detailed.md)
 
