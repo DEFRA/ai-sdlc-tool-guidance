@@ -5,8 +5,7 @@
 This summary covers the key points from the [detailed guide](azure-ai-foundry-detailed.md). Use it to understand how Azure AI Foundry works in government environments.
 
 ## Tool Overview
-Azure AI Foundry is a managed Azure service for designing, building and running generative AI workloads.  
-It combines a model catalogue, multi-agent orchestration, managed compute and governance in one portal, SDK and set of REST APIs. Foundry resources live inside your Azure subscription, so your organisation keeps control of data and networking.
+Azure AI Foundry is a managed Azure service for designing, building and running generative AI workloads. It combines a model catalogue, multi-agent orchestration, managed compute and governance in one portal, SDK and set of REST APIs. Foundry resources live inside your Azure subscription, so your organisation keeps control of data and networking.
 
 ## Privacy Settings
 * **Private networking** – isolate hubs and projects through Azure Private Link, blocking public internet access.  
