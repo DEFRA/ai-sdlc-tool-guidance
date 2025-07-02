@@ -21,6 +21,10 @@ Using approved tools helps ensure:
 - data protection requirements are met
 - tools work effectively within Defra's technical environment
 
+We are currently running a pilot with a small group of teams. What we learn will help to guide a wider rollout within Defra.
+
+**For the avoidance of doubt - any teams that are not part of the pilot should NOT use AI tools within their teams. Please speak to our team if you think otherwise.**
+
 ## AI tools by approval status
 
 ### Approved
