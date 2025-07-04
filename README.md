@@ -48,6 +48,7 @@ These tools are not currently approved for use. We are reviewing them for potent
 - **Aider** - [Summary](tool-guidance/aider-summary.md) • [Detailed guide](tool-guidance/aider-detailed.md)
 - **Claude** - [Summary](tool-guidance/claude-summary.md) • [Detailed guide](tool-guidance/claude-detailed.md)
 - **Claude Code** - [Summary](tool-guidance/claude-code-summary.md) • [Detailed guide](tool-guidance/claude-code-detailed.md)
+- **Google NotebookLM** - [Summary](tool-guidance/notebooklm-summary.md) • [Detailed guide](tool-guidance/notebooklm-detailed.md)
 - **JetBrains AI Assistant** - [Summary](tool-guidance/jetbrains-ai-assistant-intellij-summary.md) • [Detailed guide](tool-guidance/jetbrains-ai-assistant-intellij-detailed.md)
 - **Windsurf** - [Summary](tool-guidance/windsurf-summary.md) • [Detailed guide](tool-guidance/windsurf-detailed.md)
 
