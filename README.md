@@ -1,55 +1,50 @@
-# Defra AI Tool Guidance
-Version 1.1
+# AI Tools for Defra Pilot Teams
+Version 1.2
 
-This repository contains guidance for the use of artificial intelligence (AI) tools within the Department for Environment, Food & Rural Affairs (Defra) and its associated organisations.
+This document explains what AI tools you can use as part of the Defra AI pilot. It covers how data is used by these tools, what privacy settings are in place, what auditing and logging is in place, and what compliance and regulations they follow.
 
-## What you'll get from this guidance
+## Who can use these AI tools
 
-You'll learn how to:
-- choose the right AI tool for your work
-- handle data safely when using AI
-- follow privacy and compliance requirements
-- configure tools with best practice settings
+These AI tools are allowed in the Defra pilot, but only if you follow these restrictions:
 
-## Use only approved AI tools
-You must only use AI tools that appear in this guidance. This guidance contains vetted and approved tools for use across Defra.
+### 1. Only pilot teams can use these tools
+We are running a pilot with a small group of teams. What we learn will help guide a wider rollout within Defra.
 
-### Why we have approved tools
-Using approved tools helps ensure:
+**If you are not part of the pilot, do not use any AI tools.**
 
-- compliance with government security standards
-- data protection requirements are met
-- tools work effectively within Defra's technical environment
+### 2. Use only the tools in this guidance
+Teams on the pilot must use only the tools listed in this guidance, and no other AI tools. If you want to use another tool, contact the Defra AI Capabilities and Enablement - details below. 
 
-We are currently running a pilot with a small group of teams. What we learn will help to guide a wider rollout within Defra.
+**Do not use any AI tools that are not listed in this guidance.**
 
-**For the avoidance of doubt - any teams that are not part of the pilot should NOT use AI tools within their teams. Please speak to our team if you think otherwise.**
+### 3. Use only public and OFFICIAL data
+You must only enter public and OFFICIAL data into these tools. You must not enter OFFICIAL-SENSITIVE data into these tools.
 
-## AI tools by approval status
+**Do not enter OFFICIAL-SENSITIVE data into these tools.**
 
-### Approved
-These tools are approved for use within Defra when you follow the tool guidance advice.
+These are official government security classifications, as defined in the [Government Security Classifications Policy](https://www.gov.uk/government/publications/government-security-classifications/government-security-classifications-policy-quick-read-html).
+
+## AI tools
+
+These tools are allowed in the Defra pilot when you follow the tool guidance advice:
 
 - **Amazon Q for Developers** - [Summary](tool-guidance/amazon-q-developers-summary.md) • [Detailed guide](tool-guidance/amazon-q-developers-detailed.md)
 - **AWS Bedrock** - [Summary](tool-guidance/aws-bedrock-summary.md) • [Detailed guide](tool-guidance/aws-bedrock-detailed.md)
 - **Azure AI Foundry** - [Summary](tool-guidance/azure-ai-foundry-summary.md) • [Detailed guide](tool-guidance/azure-ai-foundry-detailed.md)
-- **Cursor** - [Summary](tool-guidance/cursor-summary.md) • [Detailed guide](tool-guidance/cursor-detailed.md)
-- **GitHub Copilot** - [Summary](tool-guidance/github-copilot-summary.md) • [Detailed guide](tool-guidance/github-copilot-detailed.md)
-
-### Approved with restrictions
-You may use these AI tools, but be cautious about what data you share. You must not enter or share anything that is not already published in the public domain.
-
 - **ChatGPT** - [Summary](tool-guidance/chat-gpt-summary.md) • [Detailed guide](tool-guidance/chat-gpt-detailed.md)
-- **Google Gemini** - [Summary](tool-guidance/google-gemini-summary.md) • [Detailed guide](tool-guidance/google-gemini-detailed.md)
-
-### Under review
-These tools are not currently approved for use. We are reviewing them for potential approval, but cannot commit to if or when this might happen.
-
-- **Aider** - [Summary](tool-guidance/aider-summary.md) • [Detailed guide](tool-guidance/aider-detailed.md)
 - **Claude** - [Summary](tool-guidance/claude-summary.md) • [Detailed guide](tool-guidance/claude-detailed.md)
 - **Claude Code** - [Summary](tool-guidance/claude-code-summary.md) • [Detailed guide](tool-guidance/claude-code-detailed.md)
-- **JetBrains AI Assistant** - [Summary](tool-guidance/jetbrains-ai-assistant-intellij-summary.md) • [Detailed guide](tool-guidance/jetbrains-ai-assistant-intellij-detailed.md)
+- **Cursor** - [Summary](tool-guidance/cursor-summary.md) • [Detailed guide](tool-guidance/cursor-detailed.md)
+- **GitHub Copilot** - [Summary](tool-guidance/github-copilot-summary.md) • [Detailed guide](tool-guidance/github-copilot-detailed.md)
+- **Google Gemini** - [Summary](tool-guidance/google-gemini-summary.md) • [Detailed guide](tool-guidance/google-gemini-detailed.md)
+- **Google NotebookLM** - [Summary](tool-guidance/notebooklm-summary.md) • [Detailed guide](tool-guidance/notebooklm-detailed.md)
 - **Windsurf** - [Summary](tool-guidance/windsurf-summary.md) • [Detailed guide](tool-guidance/windsurf-detailed.md)
+
+## Contact Us
+The Defra AI Capabilities and Enablement team maintains this playbook. Contact us:
+
+Through the #ask-ace slack channel on Defra slack (“grey slack”)
+Via Steve Dickinson, Principal Software Developer (CCTS AI and Innovation)
 
 ## AI playbooks and further guidance
 
