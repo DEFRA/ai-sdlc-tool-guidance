@@ -1,7 +1,5 @@
 # Google NotebookLM
 
-Approval status: Under review - this tool is not currently approved for use. We are reviewing it for potential approval, but cannot commit to if or when this might happen.
-
 This summary covers the key points from the [detailed guide](notebooklm-detailed.md). Use it to understand how Google NotebookLM can work in government environments.
 
 ## Tool Overview
