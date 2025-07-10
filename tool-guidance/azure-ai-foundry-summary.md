@@ -1,7 +1,5 @@
 # Azure AI Foundry - Summary
 
-**Approval status:** Approved - you can use this tool within Defra when you follow the tool guidance advice.
-
 This summary covers the key points from the [detailed guide](azure-ai-foundry-detailed.md). Use it to understand how Azure AI Foundry works in government environments.
 
 ## Tool Overview

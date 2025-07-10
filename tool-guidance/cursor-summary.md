@@ -1,7 +1,5 @@
 # Cursor - Summary
 
-**Approval status:** Approved - you can use this tool within Defra when you follow the tool guidance advice.
-
 This summary covers the key points from the [detailed guide](cursor-detailed.md). Use it to understand how Cursor can work in government environments.
 
 ## What Cursor does

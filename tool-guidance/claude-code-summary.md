@@ -1,7 +1,5 @@
 # Claude Code - Summary
 
-**Approval status:** Under review - this tool is not currently approved for use. We are reviewing it for potential approval, but cannot commit to if or when this might happen.
-
 This summary covers the key points from the [detailed guide](claude-code-detailed.md). Use it to understand how Claude Code can work in government environments.
 
 ## What you need to know
