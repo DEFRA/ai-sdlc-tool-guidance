@@ -72,7 +72,7 @@ Bedrock uses multiple security layers:
 
 AWS Bedrock benefits from AWS's compliance programmes:
 - **Security certifications:** ISO 27001, SOC 2, CSA STAR covering AWS infrastructure
-- **UK government:** Cyber Essentials Plus, alignment with NCSC Cloud Security Principles
+- **UK government:** Cyber Essentials Plus, alignment with NCSC Cloud Security Principles, FedRAMP High authorized 
 - **Data protection:** ISO 27018, UK GDPR compliance through Data Processing Agreements
 - **Healthcare:** HIPAA eligibility for certain models and applications
 - **AI governance:** Model safety testing, content filtering (Bedrock Guardrails), ongoing evaluation

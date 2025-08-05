@@ -11,6 +11,11 @@ I want you to review each of the attached files one by one and then search the w
 # IMPLIMENATATION PHASE
 For each tool, you should compare the latest information for each tool you found on the web with the uploaded guidance for each tool and identify any discrepancies if there are any.  If the existing tool guidance is still correct, then also confirm it's still valid.
 
+Further notes:
+- Use only official sources for information
+- Create a report-style critique for each tool with a short assessment of the summary guidance
+- Generate only one consolidated report
+
 # VERIFICATION PHASE
 When complete, you should have a list of each of the tools uploaded with commentary on the guidance validity for the latest version of each of the tools.
 
