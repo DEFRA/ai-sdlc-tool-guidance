@@ -167,6 +167,7 @@ This meets UK government minimum expectations for transport security.
 
 **Infrastructure inherited**:
 - AWS's broader compliance framework applies
+- Amazon Q Developer in scope for ISO 27001
 - ISO 27017 (cloud security) and ISO 27018 (cloud privacy) through AWS platform
 
 ### Pending certifications
