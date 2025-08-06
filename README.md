@@ -1,5 +1,5 @@
 # AI Tools for Defra Pilot Teams
-Version 1.2
+Version 1.3
 
 This document explains what AI tools you can use as part of the Defra AI pilot. It covers how data is used by these tools, what privacy settings are in place, what auditing and logging is in place, and what compliance and regulations they follow.
 
