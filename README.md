@@ -40,6 +40,12 @@ These tools are allowed in the Defra pilot when you follow the tool guidance adv
 - **Google NotebookLM** - [Summary](tool-guidance/notebooklm-summary.md) • [Detailed guide](tool-guidance/notebooklm-detailed.md)
 - **Windsurf** - [Summary](tool-guidance/windsurf-summary.md) • [Detailed guide](tool-guidance/windsurf-detailed.md)
 
+## Restricted: MCP
+
+MCP servers are restricted and currently under review. Only designated pilot projects can use MCP.
+
+Read the guidance: [Restricted: MCP]({{ "/restricted-mcp" | relative_url }})
+
 ## Contact Us
 The Defra AI Capabilities and Enablement team maintains this playbook. Contact us:
 
