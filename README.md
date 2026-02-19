@@ -3,6 +3,8 @@ Version 1.3
 
 This document explains what AI tools you can use as part of the Defra AI pilot. It covers how data is used by these tools, what privacy settings are in place, what auditing and logging is in place, and what compliance and regulations they follow.
 
+> **Start here:** If you are new to using AI in software development, read the [Defra AI in the SDLC playbook](https://defra.github.io/defra-ai-sdlc/){:target="_blank"} (opens in new tab) first. It covers the [four pillars](https://defra.github.io/defra-ai-sdlc/pages/getting-started/the-four-pillars){:target="_blank"} (opens in new tab) of working effectively with AI, development workflows, testing approaches and prompt engineering. This site provides the tool-specific configuration and setup guidance that supports those practices.
+
 ## Who can use these AI tools
 
 These AI tools are allowed in the Defra pilot, but only if you follow these restrictions:
@@ -45,6 +47,19 @@ These tools are allowed in the Defra pilot when you follow the tool guidance adv
 MCP servers are restricted and currently under review. Only designated pilot projects can use MCP.
 
 Read the guidance: [Restricted: MCP]({{ "/restricted-mcp" | relative_url }})
+
+## Tool Setup
+
+Practical guides for configuring AI coding tools in Defra projects, with example agents, instructions, and reusable prompts that encode Defra software development standards.
+
+- **GitHub Copilot** - [Setup guide](tool-setup/github-copilot-setup.md)
+  - [Example agents](tool-setup/github-copilot/agents/index.md) (Defra App Developer, Code Reviewer, Tester)
+  - [Example instructions](tool-setup/github-copilot/instructions/index.md) (root config, Node.js backend, frontend)
+  - [Example prompts](tool-setup/github-copilot/prompts/index.md) (ADR, tests, security review)
+- **Cursor** - [Setup guide](tool-setup/cursor-setup.md)
+  - [Node.js backend rules](tool-setup/cursor/nodejs-backend-rules.md) (Hapi, MongoDB, REST API, Jest)
+  - [Node.js frontend rules](tool-setup/cursor/nodejs-frontend-rules.md) (GOV.UK, Nunjucks, Playwright)
+  - [Python backend rules](tool-setup/cursor/python-backend-rules.md) (FastAPI, pytest, MongoDB)
 
 ## Contact Us
 The Defra AI Capabilities and Enablement team maintains this playbook. Contact us:
