@@ -143,8 +143,11 @@ a:active {
   checked: true;
 }
 
-// Wrapper styling
+// Wrapper styling — override base theme width (860px) to fit sidebar + content
 .wrapper {
+  width: auto;
+  max-width: 1000px;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   min-height: 100vh;
@@ -154,6 +157,7 @@ a:active {
 // Navigation styling
 .navigation {
   width: 270px;
+  flex-shrink: 0;
   padding: 2rem 1rem;
   background: var(--nav-bg);
   border-right: 1px solid var(--border-color);
@@ -181,8 +185,18 @@ a:active {
   background-color: var(--bg-color);
 }
 
+// Override base theme float layout — the minimal theme uses floats and fixed widths
+// which break our flex layout
 section {
   float: none;
+  width: auto;
+  padding-bottom: 0;
+}
+
+header {
+  float: none;
+  width: auto;
+  position: relative;
 }
 
 // Navigation menu styling
