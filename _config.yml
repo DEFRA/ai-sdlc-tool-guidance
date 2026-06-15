@@ -28,6 +28,13 @@ plugins:
 include:
   - CONTRIBUTING.md
 
+# Force deprecated layout site-wide
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: deprecated
+
 # Exclude files from processing
 exclude:
   - .cursor/
